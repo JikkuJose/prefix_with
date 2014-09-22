@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |s|
   s.name          = "prefix_with"
-  s.version       = "0.0.4"
+  s.version       = "0.0.5"
   s.authors       = ["Jikku Jose"]
   s.email         = ["jikkujose@gmail.com"]
   s.summary       = "CLI utility to prefix lines fed through the STDIN with an argument"
