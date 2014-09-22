@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.summary       = "CLI utility to prefix lines fed through the STDIN with an argument"
   s.description   = "CLI utility to prefix lines fed through the STDIN with an argument"
   s.license       = "MIT"
-  s.homepage      = "http://github.com/JikkuJose/"
+  s.homepage      = "http://github.com/JikkuJose/prefix_with"
 
   s.files         = `git ls-files -z`.split("\x0")
   s.require_paths = ["lib"]
