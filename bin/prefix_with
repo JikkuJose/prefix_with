@@ -1,0 +1,5 @@
+#! /usr/bin/env ruby
+
+require_relative '../lib/prefix_with'
+
+puts PrefixWith::Prefixer.output(stdin: STDIN.readlines, prefix: ARGV)
